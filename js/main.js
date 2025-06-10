@@ -1,5 +1,5 @@
 $( document ).ready(function() {
     $('#btn').click(function() {
-        window.alert("DID YOU JUST CLICK ME?!");
+        window.alert("Congratulations, you found nothing! Check your email for a prize ariving never!");
     });
 });
