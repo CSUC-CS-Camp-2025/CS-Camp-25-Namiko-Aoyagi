@@ -1,22 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <title>My Webpage</title>
-</head>
-<body style="background-color: #d6d6d6;">
-    <!-- Your content goes here -->
-    <h1>☆ Namiko Aoyagi ☆</h1>
-    <h2>My Favorite Color is Blue!(ノω<。)ノ))☆.。</h2>
-    <p>My day yesterday was filled with lots of work and way to much walking, and not nearly enough eating.<br> My extended family came over to visit, I had a call with my uncle, and I was given 300 dollars for my graduation.<br> Somehow, through all that, I ate absoloutely nothing. Then, I speed packed all my stuff and clothing for my summer camp and shoved it into my bags,<br> forgot my paperwork at home, had to go home to grab it again, and finally made it to camp just on time.<br> I was starving at that point, but I wasn't able to leave to eat or anything, but the RAs came to my aide and we got snacks!<br> Then I ate five slices of pizza, helped baked a cake, and went to bed happy.</p>
-    <p>☆ This is a Tony Stank ☆</p>
-    <div id="kitty">
-        <img src="images/tonystank.png" alt="This is a tony stank.">
-        <button id="btn">☆ Click me ☆</button>
-    </div>
-</body>
+<html>
+    <head>
+        <!--long ass title <3 -->
+        <title>Welcome Page for JS Mini Assignement 3</title>
+        <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        ul {text-align: center;}
+        div {text-align: center;}
+        article {image-orientation: center;}
+        </style>
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="style.css"> 
+        <!--what we focus on frfr-->
+        <h1 id="welcome-message">Welcome</h1>
+
+        <!--textbox, as required-->
+        <form id="name-form">
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <!--the button, obv-->
+            <button type="submit">Submit</button>
+        </form>
+
+
+        <figure>
+            <!--image, cause I was unable to restrain myself-->
+            <img src="https://cdn-icons-png.flaticon.com/512/1762/1762755.png" alt="banner" width="100" height="100">
+        </figure>
+
+        <style>
+            .white_color
+            {
+                color:rgb(255, 255, 255);
+            }
+        </style>
+
+        <main>
+                
+            <article>
+            <h1>☆*: .｡.Sandwich Shack.｡.:*☆</h1>
+            </article>
+
+            <p><strong>Make a Sandwich!</strong>
+            <br><em>pick all options you'd like.</em>
+            </p>
+        
+        <!--first boxes-->
+            <div class="container">
+            <div class="item"><form action="github.com" method="post">
+            <label for="sandwich name"><strong>Sandwich Name</strong></label>
+            <input type="text" id="name" name="name"></div>
+            <div class="item"><form action="github.com" method="post">
+            <label for="extra requests"><strong>Please put all extra requests here!</strong><br></label>
+            <input type="text" id="extra" name="extra"></div>
+            <div class="item"><strong>Bread Type!</strong><br>
+            <label for="type of bread">Sourdough</label>
+            <input type="radio" id="test" name="Sourdough"><label for="type of bread">Wheat</label>
+            <input type="radio" id="test" name="Wheat"><label for="type of bread">Rye</label>
+            <input type="radio" id="test" name="Rye"></div>
+            </div>
+            <!--second box-->
+            <div class="container2">
+            <div class="item2"><label for="protein type"><strong>Pick an protein:</strong></label>
+            <select id="protein type" name="protein type">
+                <option value="Pork">Pork</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Ham">Ham</option>
+            </select><br>
+            <label for="protein type"><strong>Pick an cheese!:</strong></label>
+                <select id="cheese!" name="cheese type">
+                <option value="Pork">Sharp Cheddar</option>
+                <option value="Turkey">Provolone</option>
+                <option value="Ham">Mozzerella</option>
+            </select>
+            </div>
+            <div class="item2"><strong>Veggies you can add</strong><br><label>
+            <input type="checkbox" name="tomato" value="tomato">tomato</label><label>
+            <input type="checkbox" name="onion" value="onion">onion</label><label>
+            <br><input type="checkbox" name="lettuce" value="lettuce">lettuce</label>
+            <label><input type="checkbox" name="pickles" value="pickles">pickles</label></div>
+            <div class="item2"><strong>Condiments</strong><br><label>
+                <input type="checkbox" name="mayo" value="mayo">mayo</label>
+            <br><label><input type="checkbox" name="mustard" value="mustard">mustard</label></div>
+            </div>
+            
+            <p class="white_color">When you're ready, press this button =><input type="submit" value="submit snadwich!"></p>
+
+            </form>
+
+        </main>
+
+        <!--how this is connected to js lmao-->
+        <script src="script.js"></script>
+    </body>
 </html>
+
+<!--no clue how I got this working lmao-->
+
+<!--
+run this first: php -S localhost:3006 -t ./
+-->
