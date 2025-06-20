@@ -1,7 +1,7 @@
 body
 {
     background-color: rgb(63, 63, 113);
-    background-image: url('https://wallpapers.com/images/hd/lupin-iii-the-castle-of-cagliostro-1238-x-1600-wallpaper-yy18os6au8gjuqfs.jpg');
+    background-image: url('https://64.media.tumblr.com/c64efbc230db94a63780b00423cc9a63/db491c0d06e0cf8d-38/s1280x1920/106b3389df8acbae4a3821fc01af20373243dd8b.jpg');
     background-size: 1400px;
     width: 100%;
     height: auto;
@@ -20,7 +20,7 @@ body
 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0); 
-    opacity: 0.9;
+    opacity: 1;
     padding: 20px;
     text-align: center;
     font-size: 18px;
@@ -38,7 +38,7 @@ body
 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    opacity: 0.9;
+    opacity: 1;
     padding: 20px;
     text-align: center;
     font-size: 18px;
@@ -56,7 +56,7 @@ body
 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    opacity: 0.9;
+    opacity: 1;
     padding: 20px;
     text-align: center;
     font-size: 18px;
@@ -74,11 +74,156 @@ body
 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    opacity: 0.9;
+    opacity: 1;
     padding: 20px;
     text-align: center;
     font-size: 18px;
 }
+
+.container5
+{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item5
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container5
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item5
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container6
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item6
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container7
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item7
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container8
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item8
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container9
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item9
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container10
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item10
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container11
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.item11
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
 
 figure {
   display: flex;
